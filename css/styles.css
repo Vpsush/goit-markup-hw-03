@@ -1,0 +1,311 @@
+/* скидання установок браузера */
+
+:root{
+--accent-color:#434455;
+--web-name-color:#2e2f42;
+--hover-back-graund: #404BBF;
+--logo-footer-portfolio: #4d5ae5 ;
+}
+body{
+    font-family: "Roboto",sans-serif;
+    color:var(--accent-color);
+    background-color:#FFFFFF;
+    font-style: normal;
+    /* font-style: normal; */
+}
+button{
+    cursor: pointer;
+}
+address{
+ font-style: normal;   
+}
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+
+
+/* portfolio */
+
+ .logo {     
+    font-family: 'Raleway',sans-serif;
+    /* font-style: normal; */
+    font-weight: 800;
+    font-size: 18px;
+      line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-footer-portfolio);
+   }
+.menu{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.web-name{
+    color:var(--web-name-color)
+}
+.connection{
+/* font-style: normal; */
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.nav-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+    text-decoration: none;
+}
+.nav-link:hover,
+.nav-link:focus{
+    color: #404bbf;
+}
+.mail{
+    /* font-style: normal; */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: var(--accent-color);
+}
+.mail-index{
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em; 
+    color: #434455;
+    
+    }
+.mail:hover,
+.mail:focus{
+    color: #404bbf;
+    
+}
+.btn{
+    font-family: "Roboto", sans-serif;
+       font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    /* cursor: pointer; */
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    background-color:#F4F4FD;
+}
+.btn:hover,
+.btn:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+.names{
+/* font-style: normal; */
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+.task{
+/* font-style: normal; */
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.conclution{
+/* font-style: normal; */
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: #F4F4FD;
+}
+.footer-portfolio{
+    background-color:#2e2f42;
+}
+.web-name-portfolio{
+    color: #f4f4fd;
+}
+
+
+
+
+
+/* index */
+
+
+.body-logo { 
+font-family: "Raleway", sans-serif;
+color:#4d5ae5;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase
+}
+.body-web-name{
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17x;
+ color: #2E2F42;
+   
+}
+.body-nav-link{
+    /* font-family: 'Roboto',sans-serif; */
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+    text-decoration: none;
+}
+.body-nav-link:hover,
+.body-nav-link:focus{
+    color: #404bbf;
+}
+
+.index-connection{
+  
+    /* font-style: normal; */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    /* color: #434455; */
+}
+ 
+ .mail-index{
+
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em; 
+color: #434455;
+
+}
+
+.mail-index:hover, 
+.mail-index:focus{
+    color: #404bbf;
+    
+} 
+
+.main-section{ 
+    /* color: #2e2f42; */
+background-color: #2e2f42;
+}
+.main-title{
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07 ;
+text-align: center;
+letter-spacing: 0.02em;
+color: #ffffff ;
+}
+.button{
+font-family: 'Roboto',sans-serif;
+/* font-style: normal; */
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+/* cursor: pointer; */
+/* text-align: center; */
+letter-spacing: 0.04em;
+color: #FFFFFF ;
+background-color: #4D5AE5;
+
+}
+.button:hover,
+.button:focus{
+    color: #FFFFFF ;
+     background-color: #404BBF;
+}
+
+.achivement{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.features{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+
+}
+.descuption{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+
+}
+.products{
+
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+}
+.photo{
+    background-color: #FFFFFF ;
+}
+.employee{ 
+    position: absolute;
+width: 1440px;
+height: 732px;
+left: 0px;
+top: 1548px;
+background: #F4F4FD; 
+}
+.whom{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+color: #2E2F42;
+
+}
+.position{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.footer{
+    background-color:#2e2f42 ; 
+}
+.web-name-footer{
+    color: #f4f4fd ;
+}
+.conclusion{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #F4F4FD;
+}
