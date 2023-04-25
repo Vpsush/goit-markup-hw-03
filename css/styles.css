@@ -27,6 +27,7 @@ address{
 }
 h1, h2, h3, h4, h5, h6, p { margin: 0; }
 ul, ol { list-style: none; margin: 0; padding-left: 0; }
+img { display: block; max-width: 100%; height: auto; }
 
 /* portfolio */
 
@@ -273,11 +274,11 @@ color: #2E2F42;
     background-color: #FFFFFF ;
 }
 .employee{ 
-    position: absolute;
+    /* position: absolute;
 width: 1440px;
 height: 732px;
 left: 0px;
-top: 1548px;
+top: 1548px; */
 background: #F4F4FD; 
 }
 .whom{
