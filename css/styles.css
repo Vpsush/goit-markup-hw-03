@@ -22,6 +22,7 @@ address{
     list-style: none;
     display: flex;
     gap: 24px; 
+    gap: 40px;
 
 }
 .link{
@@ -162,6 +163,7 @@ color: #F4F4FD;
 
     display: flex; 
     gap: 40px;
+    padding: 24px 0
 }
 .names{
     font-weight: 500;
