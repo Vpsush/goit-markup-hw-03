@@ -85,6 +85,9 @@ color: #F4F4FD;
     letter-spacing: 0.02em;
     color: #434455;
 }
+.connection-portfolio{
+    gap: 40px;
+}
 .features{
     font-weight: 500;
     font-size: 20px;
@@ -99,6 +102,9 @@ color: #F4F4FD;
     display: flex;
     margin: 0 auto;
     padding: 0 15px;
+}
+.features-portfolio-menu{
+    padding: 24px 0;
 }
 .employee{ 
     background: #F4F4FD; 
