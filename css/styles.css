@@ -95,6 +95,11 @@ color: #F4F4FD;
     gap: 24px;
     margin-bottom: 8px;     
 }
+.features-portfolio{
+    display: flex;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 .employee{ 
     background: #F4F4FD; 
     padding: 120px 0
