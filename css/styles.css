@@ -123,7 +123,11 @@ color: #F4F4FD;
     background-color:#2e2f42;
 }
 .img{
-    
+    flex-wrap: wrap;
+    row-gap: 48px; 
+}
+.img-features{
+    width: calc((100% - 48px) / 3);
 }
 .list-button{
     justify-content: center; 
