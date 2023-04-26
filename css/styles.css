@@ -164,6 +164,14 @@ color: #F4F4FD;
 .main-head{
     border-bottom: 1px solid #e7e9fc;
 }
+.navigation{
+    display: flex; 
+    align-items: center; 
+}
+.hero-navigation{
+    margin: 0;
+    padding: 0 15px;
+}
 .body-logo { 
 font-family: "Raleway", sans-serif;
 color:#4d5ae5;
@@ -172,7 +180,12 @@ font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
-text-transform: uppercase
+text-transform: uppercase;
+
+display: flex;
+gap: 40px;
+padding: 24px 0;
+
 }
 .body-web-name{
     font-family: 'Raleway',sans-serif;
