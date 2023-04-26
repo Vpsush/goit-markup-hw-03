@@ -66,11 +66,16 @@ img {
     letter-spacing: 0.04em;
     color: #4d5ae5;
     background-color:#F4F4FD;
+
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;   
+    border-radius: 4px;
     }
 .btn:hover,
 .btn:focus{
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
     }
 .conclution{
 font-weight: 400;
@@ -116,6 +121,13 @@ color: #F4F4FD;
 }
 .footer-portfolio{
     background-color:#2e2f42;
+}
+.img{
+    
+}
+.list-button{
+    justify-content: center; 
+    margin-bottom: 72px;
 }
 .list-features{
     width: calc((100% - 72px) / 4); 
@@ -219,6 +231,9 @@ color: #F4F4FD;
     text-transform: capitalize;
     color: #2E2F42;
     margin-bottom: 72px;  
+}
+.section-buttons{
+    padding: 96px 0 120px;
 }
 .task{
     font-weight: 400;
