@@ -91,7 +91,50 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--logo-footer-portfolio);
-   }
+}
+.mail{
+    font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+}
+.mail:hover,
+.mail:focus{
+  color: #404bbf;
+}
+.mail-index{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em; 
+  color: #434455;
+  }
+.mail-index:hover, 
+.mail-index:focus{
+      color: #404bbf; 
+}
+/* .mail-index{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em; 
+    color: #434455;
+}   */
+
+    /* .mail-index{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em; 
+color: #434455;
+
+}
+
+.mail-index:hover, 
+.mail-index:focus{
+    color: #404bbf; 
+} */
 .menu{
     font-weight: 500;
     font-size: 16px;
@@ -104,6 +147,10 @@ img {
 }
 .our-products{
     width: calc((100% - 48px) / 3);
+}
+.photo{
+    calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px; 
 }
 .products{
     font-weight: 700;
@@ -133,27 +180,7 @@ img {
 
 
 
-.mail{
-      font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-      letter-spacing: 0.02em;
-      color: var(--accent-color);
-}
-.mail-index{
 
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em; 
-    color: #434455;
-    
-    }
-.mail:hover,
-.mail:focus{
-    color: #404bbf;
-    
-}
 .btn{
     font-family: "Roboto", sans-serif;
        font-style: normal;
@@ -274,23 +301,9 @@ margin-right: 76px;
     display: flex;
      gap: 40px;}
  
- .mail-index{
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em; 
-color: #434455;
-
-}
-
-.mail-index:hover, 
-.mail-index:focus{
-    color: #404bbf;
-    
-} 
+ 
 
 .main-section{ 
-    /* color: #2e2f42; */
 background-color: #2e2f42;
 
 padding: 188px 0;
