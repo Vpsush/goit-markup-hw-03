@@ -65,6 +65,9 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+
+    display: flex; 
+    gap: 40px;
 }
 .web-name{
     color:var(--web-name-color)
@@ -185,6 +188,7 @@ text-transform: uppercase;
 display: flex;
 gap: 40px;
 padding: 24px 0;
+margin-right: 76px;
 
 }
 .body-web-name{
@@ -207,6 +211,8 @@ padding: 24px 0;
     letter-spacing: 0.02em;
     color:#2e2f42;
     text-decoration: none;
+
+    padding: 24px 0;
 }
 .body-nav-link:hover,
 .body-nav-link:focus{
@@ -220,7 +226,9 @@ padding: 24px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    /* color: #434455; */
+   
+    display: flex;
+     gap: 40px;
 }
  
  .mail-index{
