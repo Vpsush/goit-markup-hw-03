@@ -57,6 +57,9 @@ img {
     color: #434455;
     padding: 120px 0;
     }
+.additional{
+    width: calc((100% - 48px) / 3);
+}
 .btn{
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -124,6 +127,7 @@ color: #F4F4FD;
 }
 .img{
     flex-wrap: wrap; 
+    row-gap: 48px;
 }
 .img-features{
     padding: 32px 16px;
