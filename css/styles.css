@@ -172,8 +172,9 @@ color: #F4F4FD;
     align-items: center; 
 }
 .hero-navigation{
-    margin: 0;
+    margin: 0 auto;
     padding: 0 15px;
+
 }
 .body-logo { 
 font-family: "Raleway", sans-serif;
@@ -225,11 +226,12 @@ margin-right: 76px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02em;}
    
+   
+.list-index-connection{ 
     display: flex;
-     gap: 40px;
-}
+     gap: 40px;}
  
  .mail-index{
 font-weight: 400;
