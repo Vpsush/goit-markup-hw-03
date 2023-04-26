@@ -123,6 +123,7 @@ color: #F4F4FD;
     color: var(--logo-footer-portfolio);
     display: inline-block;
     margin-bottom: 16px;
+    margin-right: 76px
 }
 .mail{
     font-weight: 400;
@@ -148,6 +149,9 @@ color: #F4F4FD;
 }
 .main-head{
     border-bottom: 1px solid #e7e9fc;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .menu{
     font-weight: 500;
