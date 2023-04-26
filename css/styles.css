@@ -50,7 +50,37 @@ img {
 
 
 /* portfolio */
-
+.achivement{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    padding: 120px 0;
+    }
+.connection{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    }
+.features{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    display: flex;
+    gap: 24px;
+    margin-bottom: 8px;     
+    }
+.list-features{
+    width: calc((100% - 72px) / 4); 
+}
+.list-products{
+    width: calc((100% - 48px) / 3);
+}
  .logo {     
     font-family: 'Raleway',sans-serif;
     /* font-style: normal; */
@@ -71,16 +101,20 @@ img {
     display: flex; 
     gap: 40px;
 }
+.products{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+    margin-bottom: 72px;
+    }
 .web-name{
     color:var(--web-name-color)
 }
-.connection{
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-}
+
 
 .nav-link{
     font-weight: 500;
@@ -289,26 +323,8 @@ border-radius: 4px;
      background-color: #404BBF;
 }
 
-.achivement{
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-padding: 120px 0;
-}
-.features{
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2E2F42;
-display: flex;
-gap: 24px;
-margin-bottom: 8px;
-width: calc((100% - 72px) / 4); 
 
-}
+
 .descuption{
 font-weight: 400;
 font-size: 16px;
@@ -317,16 +333,7 @@ letter-spacing: 0.02em;
 color: #434455;
 
 }
-.products{
 
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: #2E2F42;
-}
 .photo{
     background-color: #FFFFFF ;
 }
