@@ -58,6 +58,21 @@ img {
     color: #434455;
     padding: 120px 0;
     }
+.btn{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    background-color:#F4F4FD;
+    }
+.btn:hover,
+.btn:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
+    }
 .connection{
     font-weight: 400;
     font-size: 16px;
@@ -75,6 +90,17 @@ img {
     gap: 24px;
     margin-bottom: 8px;     
     }
+.employee{ 
+    background: #F4F4FD; 
+    padding: 120px 0
+    }
+.footer{
+    background-color:#2e2f42 ; 
+    padding: 100px 0;
+}
+.footer-portfolio{
+    background-color:#2e2f42;
+}
 .list-features{
     width: calc((100% - 72px) / 4); 
 }
@@ -84,13 +110,14 @@ img {
 }
  .logo {     
     font-family: 'Raleway',sans-serif;
-    /* font-style: normal; */
     font-weight: 800;
     font-size: 18px;
-      line-height: 1.17;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--logo-footer-portfolio);
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .mail{
     font-weight: 400;
@@ -114,27 +141,9 @@ img {
 .mail-index:focus{
       color: #404bbf; 
 }
-/* .mail-index{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em; 
-    color: #434455;
-}   */
-
-    /* .mail-index{
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em; 
-color: #434455;
-
+.main-head{
+    border-bottom: 1px solid #e7e9fc;
 }
-
-.mail-index:hover, 
-.mail-index:focus{
-    color: #404bbf; 
-} */
 .menu{
     font-weight: 500;
     font-size: 16px;
@@ -145,23 +154,16 @@ color: #434455;
     display: flex; 
     gap: 40px;
 }
-.our-products{
-    width: calc((100% - 48px) / 3);
-}
-.photo{
-    calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px; 
-}
-.products{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
+.names{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2E2F42;
-    margin-bottom: 72px;
-    }
+    color: #2e2f42;
+}
+.name-job{
+    padding: 32px 16px;
+}
 .nav-link{
     font-weight: 500;
     font-size: 16px;
@@ -174,38 +176,40 @@ color: #434455;
 .nav-link:focus{
     color: #404bbf;
     }
+.our-products{
+    width: calc((100% - 48px) / 3);
+}
+.photo{
+    calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px; 
+    width: calc((100% - 72px) / 4);
+}
+.products{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+    margin-bottom: 72px;
+    
+}
+
 .web-name{
     color:var(--web-name-color)
 }
-
-
-
-
-.btn{
-    font-family: "Roboto", sans-serif;
-       font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #4d5ae5;
-    background-color:#F4F4FD;
+.web-name-portfolio{
+    color: #f4f4fd;
 }
-.btn:hover,
-.btn:focus{
-    color: #FFFFFF;
-    background-color: #404BBF;
+.whom{
+    margin-bottom: 8px;
 }
-.names{
-/* font-style: normal; */
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2e2f42;
-}
+
+
+
+
 .task{
-/* font-style: normal; */
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -213,18 +217,13 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 .conclution{
-/* font-style: normal; */
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 color: #F4F4FD;
 }
-.footer-portfolio{
-    background-color:#2e2f42;
-}
-.web-name-portfolio{
-    color: #f4f4fd;
-}
+
+
 
 
 
@@ -232,9 +231,7 @@ color: #F4F4FD;
 
 /* index */
 
-.main-head{
-    border-bottom: 1px solid #e7e9fc;
-}
+
 .navigation{
     display: flex; 
     align-items: center; 
@@ -355,14 +352,7 @@ color: #434455;
 .photo{
     background-color: #FFFFFF ;
 }
-.employee{ 
-    /* position: absolute;
-width: 1440px;
-height: 732px;
-left: 0px;
-top: 1548px; */
-background: #F4F4FD; 
-}
+
 .whom{
 font-weight: 500;
 font-size: 20px;
@@ -380,9 +370,7 @@ text-align: center;
 letter-spacing: 0.02em;
 color: #434455;
 }
-.footer{
-    background-color:#2e2f42 ; 
-}
+
 .web-name-footer{
     color: #f4f4fd ;
 }
