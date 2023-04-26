@@ -20,6 +20,9 @@ address{
 }
 .list{
     list-style: none;
+    display: flex;
+    gap: 24px; 
+
 }
 .link{
     text-decoration: none;
@@ -303,6 +306,7 @@ color: #2E2F42;
 display: flex;
 gap: 24px;
 margin-bottom: 8px;
+width: calc((100% - 72px) / 4); 
 
 }
 .descuption{
