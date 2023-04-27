@@ -71,7 +71,7 @@ img {
     text-transform: uppercase;
     
     display: flex;
-    gap: 40px;
+    /* gap: 40px; */
     padding: 24px 0;
     margin-right: 76px;
 }
@@ -201,8 +201,6 @@ color: #F4F4FD;
 .hero-navigation{
     margin: 0 auto;
     padding: 0 15px;
-}
-.hero-navigation{
     display: flex;
 }
 .img{
@@ -295,6 +293,9 @@ color: #F4F4FD;
     gap: 40px;
     padding: 24px 0
 }
+.menu:not(:last-child){
+    margin: 40px;
+}
 .names{
     font-weight: 500;
     font-size: 20px;
@@ -310,6 +311,7 @@ color: #F4F4FD;
     display: flex; 
     align-items: center; 
 }
+
 .nav-link{
     font-weight: 500;
     font-size: 16px;
