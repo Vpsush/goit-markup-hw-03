@@ -214,6 +214,8 @@ color: #F4F4FD;
 .img{
     flex-wrap: wrap; 
     row-gap: 48px;
+    display: flex;
+    justify-content: space-between;
 }
 .index-connection{
     font-weight: 400;
