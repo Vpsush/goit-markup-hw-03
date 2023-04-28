@@ -57,7 +57,7 @@ img {
     color: #434455;
     padding: 120px 0;
     }
-.additional{
+.total-information{
     width: calc((100% - 48px) / 3);
 }
 .body-logo { 
