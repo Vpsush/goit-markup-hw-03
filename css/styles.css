@@ -57,9 +57,9 @@ img {
     color: #434455;
     padding: 120px 0;
     }
-.total-information{
+/* .total-information{
     width: calc((100% - 48px) / 3);
-}
+} */
 .body-logo { 
     font-family: "Raleway", sans-serif;
     color:#4d5ae5;
