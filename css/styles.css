@@ -217,6 +217,9 @@ color: #F4F4FD;
     display: flex;
     justify-content: space-between;
 }
+.img-information{
+    width: calc((100% - 48px) / 3);
+}
 .index-connection{
     font-weight: 400;
     font-size: 16px;
