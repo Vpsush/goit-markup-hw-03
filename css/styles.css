@@ -112,6 +112,12 @@ img {
     padding: 12px 24px;
     border: 1px solid #e7e9fc;   
     border-radius: 4px;
+
+   
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+   
     }
 .btn:hover,
 .btn:focus{
@@ -158,6 +164,8 @@ color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-left: auto;
+    
 }
 .connection-portfolio{
     gap: 40px;
@@ -213,9 +221,16 @@ color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.information{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+
+}
 .list-button{
     justify-content: center; 
     margin-bottom: 72px;
+   
 }
 .list-features{
     width: calc((100% - 72px) / 4); 
@@ -246,6 +261,7 @@ color: #F4F4FD;
   line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--accent-color);
+   
 }
 .mail:hover,
 .mail:focus{
@@ -303,6 +319,8 @@ color: #F4F4FD;
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+    margin-top: 32px;
+    
 }
 .name-job{
     padding: 32px 16px;
@@ -354,6 +372,27 @@ color: #F4F4FD;
 }
 .section-buttons{
     padding: 96px 0 120px;
+}
+.section-buttons1{
+    width: 69px;
+ background: #404BBF;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+}
+.section-buttons2{
+    width: 116px;
+  
+}
+.section-buttons3{
+    width: 68px;
+   
+}
+.section-buttons4{
+    width: 101px;
+} 
+.section-buttons5{
+    width: 126px;
+   
 }
 .task{
     font-weight: 400;
