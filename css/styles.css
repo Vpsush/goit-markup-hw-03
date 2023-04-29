@@ -215,8 +215,9 @@ a{
 }
 .features-portfolio{
     display: flex;
-    margin: 0 auto;
-    padding: 0 15px;
+    /* margin: 0 auto;
+    padding: 0 15px; */
+    align-items: center;
 }
 .hero-navigation{
     /* margin: 0 auto;
