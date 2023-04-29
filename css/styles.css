@@ -54,8 +54,10 @@ a{
   
 .container{
     margin: 0 auto;
-    padding:0,15px;
+    padding-left:0,15px;
     padding-right:0,15px;
+    padding-top: 0.15px;
+    padding-bottom: 0.15px;
     width: 1158px
 }
 .wrapper{
