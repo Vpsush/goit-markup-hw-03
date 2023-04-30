@@ -51,7 +51,7 @@ a{
     text-decoration: none;
 
 }
-  
+
 .container{
     margin: 0 auto;
     padding: 0 15px;
@@ -63,9 +63,9 @@ a{
 }
 .wrapper{
     
-    margin-left: auto ;
+    /* margin-left: auto ;
     margin-right: auto ;
-      width: 300px ;
+      width: 300px ; */
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
@@ -86,11 +86,12 @@ a{
 }
 .body-logo { 
     font-family: "Raleway", sans-serif;
-    color:#4d5ae5;
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
+    color:#4d5ae5;
+    /* font-style: normal; */
+   
     letter-spacing: 0.03em;
     text-transform: uppercase;
     
@@ -136,6 +137,7 @@ a{
     padding: 12px 24px;
     border: 1px solid #e7e9fc;   
     border-radius: 4px;
+    /* text-align: center; */
 
 /*    
     background: #F4F4FD;
@@ -172,10 +174,12 @@ a{
 .conclusion{
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 24px;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    width: 264px;
     }
+
 .connection{
     font-weight: 400;
     font-size: 16px;
@@ -202,10 +206,11 @@ a{
 .footer{
     background-color:#2e2f42 ; 
     padding: 100px 0;
+    /* width: calc((100% - 72px) / 4);  */
 }
-.footer-portfolio{
+/* .footer-portfolio{
     background-color:#2e2f42;
-}
+} */
 .features{
     font-weight: 500;
     font-size: 20px;
@@ -270,7 +275,7 @@ a{
      gap: 40px;
 }
 .list-products{
-    width: calc((100% - 48px) / 3);
+    /* width: calc((100% - 48px) / 3); */
     padding-bottom: 120px; 
 }
  .logo {     
@@ -278,13 +283,17 @@ a{
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
+    color: var(--logo-footer-portfolio);
+
+    
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--logo-footer-portfolio);
-    display: inline-block;
-    margin-bottom: 16px;
-    margin-right: 76px
-}
+
+    display: flex;
+    padding: 24px 0;
+    margin-right: 76px;
+
+ }
 .mail{
     font-weight: 400;
   font-size: 16px;
@@ -349,7 +358,7 @@ a{
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    margin-top: 32px;
+    /* margin-top: 32px; */
     
 }
 .name-job{
@@ -404,7 +413,7 @@ a{
 .section-buttons{
     padding: 96px 0 120px;
 }
-.section-buttons1{
+/* .section-buttons1{
     width: 69px;
  background: #404BBF;
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -424,7 +433,7 @@ border-radius: 4px;
 .section-buttons5{
     width: 126px;
    
-}
+} */
 .task{
     font-weight: 400;
     font-size: 16px;
