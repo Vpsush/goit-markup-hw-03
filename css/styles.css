@@ -307,9 +307,9 @@ a{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     
-    /* display: inline-block; */
+    display: inline-block;
     margin-bottom: 16px;
-    display: flex;
+    /* display: flex; */
     padding: 24px 0;
     margin-right: 76px;}
     
