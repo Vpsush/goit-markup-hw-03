@@ -70,7 +70,19 @@ a{
     border: 1px solid #e7e9fc;
     border-top: none;
 }
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inherit(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 
+}
 
 /*------ALL------- */
 .achivement{
@@ -95,7 +107,9 @@ a{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     
-    display: flex;
+    display: inline-block;
+    /* margin-bottom: 16px; */
+    /* display: flex; */
     padding: 24px 0;
     margin-right: 76px;
 }
@@ -233,19 +247,7 @@ a{
     display: flex;
     align-items: center;
 }
-.visually-hidden{
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inherit(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
 
-}
 .img{
     flex-wrap: wrap; 
     row-gap: 48px;
