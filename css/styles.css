@@ -296,6 +296,23 @@ a{
     margin-right: 76px;
 
  }
+ .logo-footer{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    color:#4d5ae5;
+    /* font-style: normal; */
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    /* display: inline-block; */
+    margin-bottom: 16px;
+    display: flex;
+    padding: 24px 0;
+    margin-right: 76px;}
+    
 .mail{
     font-weight: 400;
   font-size: 16px;
